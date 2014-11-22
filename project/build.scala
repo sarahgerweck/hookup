@@ -8,7 +8,7 @@ object HookupBuild extends Build {
     organization := "io.backchat.hookup",
     name := "hookup",
     version := "0.4.1-SNAPSHOT",
-    scalaVersion := "2.10.4",
+    scalaVersion := "2.11.4",
     //crossScalaVersions := Seq("2.9.1", "2.9.1-1", "2.9.2"),
     compileOrder := CompileOrder.ScalaThenJava,
     libraryDependencies ++= Seq(
@@ -16,9 +16,9 @@ object HookupBuild extends Build {
       "com.github.nscala-time" %% "nscala-time" % "1.4.0",
       "org.json4s" %% "json4s-jackson" % "3.2.10" % "compile",
       "commons-io" % "commons-io" % "2.4",
-      "com.typesafe.akka" %% "akka-actor" % "2.1.4" % "compile",
-      "com.typesafe.akka" %% "akka-testkit" % "2.1.4" % "test",
-      "org.specs2" %% "specs2" % "1.14" % "test",
+      "com.typesafe.akka" %% "akka-actor" % "2.3.7" % "compile",
+      "com.typesafe.akka" %% "akka-testkit" % "2.3.7" % "test",
+ //     "org.specs2" %% "specs2" % "2.4.9" % "test",
       "junit" % "junit" % "4.11" % "test",
       "joda-time" % "joda-time" % "2.2"
     ),
